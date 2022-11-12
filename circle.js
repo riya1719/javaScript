@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain')
   var Arrow = () => {
 
-    return "This example shows the syntax of an Arrow Function";
+    return "This example shows the syntax of an Arrow Function : ";
   }
   res.end(Arrow());
 
